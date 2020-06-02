@@ -28,5 +28,5 @@ echo "set CCSDK_BOARD=%CCSDK_BOARD%" >"%LOCALAPPDATA%/ccenv.cmd"
 echo "set CCSDK_DBG_PORT=%CCSDK_DBG_PORT%" >>"%LOCALAPPDATA%/ccenv.cmd"
 echo "set CCSDK_UART_PORT=%CCSDK_UART_PORT%" >>"%LOCALAPPDATA%/ccenv.cmd"
 
-set PATH=%PATH%;%CCSDK_TOOLCHAIN_PATH%;%CCSDK_HOME%/tools/windows/srecord
+set PATH=%PATH%;%CCSDK_TOOLCHAIN_PATH%;%CCSDK_HOME%/tools/srecord;%CCSDK_HOME%/tools/resources/windows/srecord
 cmd
