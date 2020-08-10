@@ -19,8 +19,8 @@ import gdb
 import os
 import os.path
 
-pythondir = '/home/mjemieli/TESTING/chipcraft-toolchain/outputroot/i686-w64-mingw32/share/gcc-7.5.0/python'
-libdir = '/home/mjemieli/TESTING/chipcraft-toolchain/outputroot/i686-w64-mingw32/mips-cc-elf/lib'
+pythondir = '/home/mjemieli/WORKSPACE/chipcraft-toolchain/outputroot/i686-w64-mingw32/share/gcc-7.5.0/python'
+libdir = '/home/mjemieli/WORKSPACE/chipcraft-toolchain/outputroot/i686-w64-mingw32/mips-cc-elf/lib'
 
 # This file might be loaded when there is no current objfile.  This
 # can happen if the user loads it manually.  In this case we don't
